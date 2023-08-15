@@ -3,6 +3,7 @@ import os
 git_nick_name = 'gabflag'
 repository_name = input("Repository name: ")
 
+
 list_of_commands = [
     f'mkdir {repository_name}',
     f'echo "# {repository_name}" >> {repository_name}\\README.md',

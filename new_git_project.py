@@ -6,8 +6,8 @@ repository_name = input("Repository name: ")
 
 list_of_commands = [
     f'mkdir {repository_name}',
-    f'echo "# {repository_name}" >> {repository_name}\\README.md',
     f'cd {repository_name} && git init',
+    f'echo "# {repository_name}" >> {repository_name}\\README.md',
     f'cd {repository_name} && git add README.md',
     f'cd {repository_name} && echo "venv" > .gitignore',
     f'cd {repository_name} && git commit -m "first commit"',
